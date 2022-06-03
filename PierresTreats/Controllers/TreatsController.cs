@@ -108,6 +108,14 @@ namespace PierresTreats.Controllers
         _db.SaveChanges();
         return RedirectToAction("Index");
     }
+    [HttpGet]
+    public ActionResult RemoveTreat(int flavorTreatId)
+    {
+      var joinEntry = _db.FlavorTreats.FirstOrDefault(joinEntry => joinEntry.FlavorTreatId == flavorTreatId);
+      _db.FlavorTreats.Remove(joinEntry);
+      _db.SaveChanges();
+      return RedirectToAction("Details", new { id = joinEntry.TreatId });
+    }
     
   }
 }
