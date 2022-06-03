@@ -100,5 +100,13 @@ namespace PierresTreats.Controllers
       _db.SaveChanges();
       return RedirectToAction("Details", new { id = flavor.FlavorId });
     }
+    [HttpGet]
+    public ActionResult RemoveFlavor(int flavorTreatId)
+    {
+      var joinEntry = _db.FlavorTreats.Single(joinEntry => joinEntry.FlavorTreatId == flavorTreatId);
+      _db.FlavorTreats.Remove(joinEntry);
+      _db.SaveChanges();
+      return RedirectToAction("Details", new { id = joinEntry.TreatId });
+    }
   }
 }
