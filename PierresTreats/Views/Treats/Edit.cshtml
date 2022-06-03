@@ -1,0 +1,15 @@
+@model PierresTreats.Models.Treat
+
+<h4>Update treat's name: @Html.DisplayFor(model => model.Name)</h4>
+
+@using (Html.BeginForm())
+{
+  @Html.HiddenFor(model => model.TreatId)
+
+  @Html.LabelFor(model => model.Name)
+  @Html.EditorFor(model => model.Name)
+
+  <input class="myCssClass" type="submit" value="Save" />
+}
+</br>
+<p>@Html.ActionLink("Back to the list of treats", "Index", null, null,  new {@class = "myCssClass"})</p>

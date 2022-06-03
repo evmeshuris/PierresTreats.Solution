@@ -1,0 +1,12 @@
+@model PierresTreats.Models.Treat;
+
+<h3>Add a flavor to this treat: @Html.DisplayFor(model => model.Name)</h3>
+
+@using (Html.BeginForm())
+{
+  @Html.HiddenFor(model => model.TreatId)
+  @Html.Label("Select a flavor")
+  @Html.DropDownList("FlavorId")
+  <input class="myCssClass" type="submit" value="Save" />
+} 
+@Html.ActionLink("Back to List of Treats", "Index", null, null , new {@class="myCssClass"})
