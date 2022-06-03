@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "D6oXu8q1cwDEB+pzMHvpo/ReaADw+BLHSBD7IGlYX/4=",
+  "Source": "PierresTreats",
+  "BasePath": "_content/PierresTreats",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PierresTreats/wwwroot",
+      "Source": "PierresTreats",
+      "ContentRoot": "/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/wwwroot/",
+      "BasePath": "_content/PierresTreats",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

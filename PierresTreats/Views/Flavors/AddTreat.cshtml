@@ -1,0 +1,12 @@
+@model PierresTreats.Models.Flavor
+
+<h4>Choose a treat @Html.DisplayFor(model => model.Name) you want to add to this flavor</h4>
+
+@using (Html.BeginForm())
+{
+  @Html.HiddenFor(model => model.FlavorId)
+  @Html.Label("Pick a treat")
+  @Html.DropDownList("TreatId")
+  <button type="submit" value="Add Treat" class="myCssClass">Add</button>
+}
+@Html.ActionLink("Back to List of Flavors", "Index", null, null , new {@class="myCssClass"})  

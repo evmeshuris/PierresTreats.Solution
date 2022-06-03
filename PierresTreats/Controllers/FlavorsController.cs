@@ -23,7 +23,7 @@ namespace PierresTreats.Controllers
       _db = db;
     }
 
-    public ActionResult Index()
+    public async Task<ActionResult> Index()
     {
       var userId = this.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
       var currentUser = await _userManager.FindByIdAsync(userId);
@@ -37,7 +37,7 @@ namespace PierresTreats.Controllers
     }
 
     [HttpPost]
-    public ActionResult Create(Flavor flavor)
+    public async Task<ActionResult> Create(Flavor flavor)
     {
       var userId = this.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
       var currentUser = await _userManager.FindByIdAsync(userId);
@@ -91,9 +91,9 @@ namespace PierresTreats.Controllers
     }
 
     [HttpPost]
-    public ActionResult AddTreat(Flavor flavor, int FlavorId)
+    public ActionResult AddTreat(Flavor flavor, int TreatId)
     {
-      if (FlavorId != 0)
+      if (TreatId != 0)
       {
         _db.FlavorTreat.Add(new FlavorTreat() { TreatId = TreatId, FlavorId = flavor.FlavorId });
       }
@@ -103,8 +103,8 @@ namespace PierresTreats.Controllers
     [HttpGet]
     public ActionResult RemoveFlavor(int flavorTreatId)
     {
-      var joinEntry = _db.FlavorTreats.Single(joinEntry => joinEntry.FlavorTreatId == flavorTreatId);
-      _db.FlavorTreats.Remove(joinEntry);
+      var joinEntry = _db.FlavorTreat.Single(joinEntry => joinEntry.FlavorTreatId == flavorTreatId);
+      _db.FlavorTreat.Remove(joinEntry);
       _db.SaveChanges();
       return RedirectToAction("Details", new { id = joinEntry.TreatId });
     }

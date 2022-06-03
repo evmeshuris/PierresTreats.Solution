@@ -15,20 +15,80 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/Views/Flavors/AddTreat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxhdm9ycy9BZGRUcmVhdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/Views/Flavors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxhdm9ycy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/Views/Flavors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxhdm9ycy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/Views/Flavors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxhdm9ycy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/Views/Flavors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxhdm9ycy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/Views/Flavors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxhdm9ycy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/Views/Flavors/RemoveTreat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxhdm9ycy9SZW1vdmVUcmVhdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/Views/Treats/AddFlavor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJlYXRzL0FkZEZsYXZvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/Views/Treats/Creat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJlYXRzL0NyZWF0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/Views/Treats/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJlYXRzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/Views/Treats/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJlYXRzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/Views/Treats/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJlYXRzL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/Views/Treats/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJlYXRzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/Views/Treats/RemoveFlavor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJlYXRzL1JlbW92ZUZsYXZvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/Views/_ViewStart.cshtml]
