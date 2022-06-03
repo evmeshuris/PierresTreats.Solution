@@ -14,10 +14,10 @@ namespace PierresTreats.ViewModels
         [Display(Name = "Password")]
         public string Password { get; set; }
 
-        [Required]
-        [EmailAddress]
-        [Display(Name = "UserName")]
-        public string Email { get; set; }
+        // [Required]
+        // [EmailAddress]
+        // [Display(Name = "FirstName")]
+        // public string Email { get; set; }
 
         [DataType(DataType.Password)]
         [Display(Name = "Confirm password")]
