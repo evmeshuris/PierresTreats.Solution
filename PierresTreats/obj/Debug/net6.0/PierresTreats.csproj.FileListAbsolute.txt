@@ -1,0 +1,6 @@
+/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/obj/Debug/net6.0/PierresTreats.csproj.AssemblyReference.cache
+/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/obj/Debug/net6.0/PierresTreats.GeneratedMSBuildEditorConfig.editorconfig
+/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/obj/Debug/net6.0/PierresTreats.AssemblyInfoInputs.cache
+/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/obj/Debug/net6.0/PierresTreats.AssemblyInfo.cs
+/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/obj/Debug/net6.0/PierresTreats.csproj.CoreCompileInputs.cache
+/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/obj/Debug/net6.0/PierresTreats.MvcApplicationPartsAssemblyInfo.cache
