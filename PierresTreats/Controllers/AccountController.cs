@@ -43,6 +43,7 @@ namespace PierresTreats.Controllers
                 return View();
             }
         }
+
         public ActionResult Login()
         {
             return View();
@@ -61,6 +62,7 @@ namespace PierresTreats.Controllers
                 return View();
             }
         }
+
         [HttpPost]
         public async Task<ActionResult> LogOff()
         {
