@@ -4,3 +4,5 @@
 /Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/obj/Debug/net6.0/PierresTreats.AssemblyInfo.cs
 /Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/obj/Debug/net6.0/PierresTreats.csproj.CoreCompileInputs.cache
 /Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/obj/Debug/net6.0/PierresTreats.MvcApplicationPartsAssemblyInfo.cache
+/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/obj/Debug/net6.0/PierresTreats.RazorAssemblyInfo.cache
+/Users/evgeniya/Desktop/epicodus/week12/PierresTreats.Solution/PierresTreats/obj/Debug/net6.0/PierresTreats.RazorAssemblyInfo.cs
