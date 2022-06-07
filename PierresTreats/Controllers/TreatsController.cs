@@ -109,9 +109,9 @@ namespace PierresTreats.Controllers
         return RedirectToAction("Index");
     }
     [HttpGet]
-    public ActionResult RemoveTreat(int flavorTreatId)
+    public ActionResult RemoveFlavor(int flavorTreatId)
     {
-      var joinEntry = _db.FlavorTreat.FirstOrDefault(joinEntry => joinEntry.FlavorTreatId == flavorTreatId);
+      var joinEntry = _db.FlavorTreat.Single(joinEntry => joinEntry.FlavorTreatId == flavorTreatId);
       _db.FlavorTreat.Remove(joinEntry);
       _db.SaveChanges();
       return RedirectToAction("Details", new { id = joinEntry.TreatId });

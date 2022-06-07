@@ -16,7 +16,7 @@ else
   @foreach(var join in Model.JoinEntities)
   {
     <li>@join.Treat.Name</li>
-    @Html.ActionLink("Remove treat from a flavor", "RemoveTreat", null, new { treatFlavorId = join.FlavorTreatId}, new {@class="myCssClass"})
+    @Html.ActionLink("Remove treat from a flavor", "RemoveTreat", null, new { flavorTreatId = join.FlavorTreatId}, new {@class="myCssClass"})
   }
   </ul>
 }
