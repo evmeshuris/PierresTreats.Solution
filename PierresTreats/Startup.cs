@@ -45,8 +45,8 @@ namespace PierresTreats
             //    .UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
-                      .AddEntityFrameworkStores<PierresTreatsContext>()
-                      .AddDefaultTokenProviders();
+                .AddEntityFrameworkStores<PierresTreatsContext>()
+                .AddDefaultTokenProviders();
 
             services.Configure<IdentityOptions>(options =>
             {

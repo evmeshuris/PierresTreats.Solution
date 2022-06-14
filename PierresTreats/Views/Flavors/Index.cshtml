@@ -2,8 +2,9 @@
 @model IEnumerable<PierresTreats.Models.Flavor>
 
 <div class="container">
-<h3>Flavors for @User.Identity.Name</h3>
-
+@if (User.Identity.IsAuthenticated){
+  <h3>Flavors for @User.Identity.Name</h3>
+}
 @if (Model.Any())
 {
   <ul>

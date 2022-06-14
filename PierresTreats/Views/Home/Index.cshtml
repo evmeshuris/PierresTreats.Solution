@@ -3,37 +3,33 @@
 
 
   <h1>Welcome to the sweet world of Pierre's Sweet and Savory Treats</h1>
-
   
+  <h4>Treats</h4>
+    <ol class="center">
+    @foreach (Treat treat in @ViewBag.Treats)
+    {
+      <li>@Html.ActionLink($"{treat.Name}", "Details", "Treats", new { id = treat.TreatId })</li>
+    }
+    </ol>
+  <h4>Flavors</h4>
+    <ol class="center">
+    @foreach (Flavor flavor in @ViewBag.Flavors)
+    {
+      <li>@Html.ActionLink($"{flavor.Name}", "Details", "Flavors", new { id = flavor.FlavorId })</li>
+    }
+    </ol>  
+    <ol class="center">
+      <ul>
+        <li>@Html.ActionLink("Flavors", "Index", "Flavors", null, new {@class = "myCssClass"})</li> 
+        <li>@Html.ActionLink("Treats", "Index", "Treats", null, new {@class = "myCssClass"})</li>
+        <li>@Html.ActionLink("Account Info", "Index", "Account", null, new {@class = "myCssClass"})</li>
+      </ul>
+    </ol>
   @if (User.Identity.IsAuthenticated)
   {
-    <h4>Treats</h4>
-      <ol class="center">
-      @foreach (Treat treat in @ViewBag.Treats)
-      {
-        <li>@Html.ActionLink($"{treat.Name}", "Details", "Treats", new { id = treat.TreatId })</li>
-      }
-      </ol>
-    <h4>Flavors</h4>
-      <ol class="center">
-      @foreach (Flavor flavor in @ViewBag.Flavors)
-      {
-        <li>@Html.ActionLink($"{flavor.Name}", "Details", "Flavors", new { id = flavor.FlavorId })</li>
-      }
-      </ol>  
     <table>
       <tr>
-        <td>@Html.ActionLink("Flavors", "Index", "Flavors", null, new {@class = "myCssClass"})</td> 
-        <td>@Html.ActionLink("Treats", "Index", "Treats", null, new {@class = "myCssClass"})</td>
-        <td>@Html.ActionLink("Account Info", "Index", "Account", null, new {@class = "myCssClass"})</td>
-      </tr>
-    </table>
-  }
-  else
-  {
-    <table>
-      <tr>
-        <td>@Html.ActionLink("Create an account", "Index", "Account", null, new {@class = "myCssClass"})</td>
+        <td>@Html.ActionLink("Authenticate", "Index", "Account", null, new {@class = "myCssClass"})</td>
       </tr>
     </table> 
   }  
